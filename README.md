@@ -18,7 +18,7 @@ open it (File › Open); Fritzing adds it to the *Mine* bin. Or build them
 yourself with `scripts/pack.sh` (into `dist/`).
 
 **With [fritzing-render](https://github.com/LeonFedotov/fritzing-render):**
-this repository is its `parts/` submodule, so the parts are in its CLI, MCP
+this repository is its `libraries/fritzing-parts-extra` submodule, so the parts are in its CLI, MCP
 server and Docker image. Elsewhere, add this folder to `FRITZING_PARTS`.
 
 Each folder is an unpacked `.fzpz`: `part.<name>.fzp` beside its
